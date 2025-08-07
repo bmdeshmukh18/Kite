@@ -1,0 +1,187 @@
+.text-red {
+    color: #ff6a3c;
+    font-weight: bolder;
+}
+
+.text-green {
+    color: #5de161 ;
+    font-weight: bolder;
+}
+
+/*Day change text font size*/
+[data-balloon]{
+  font-size: 12px !important;
+}
+
+div.outer-base, html{
+  background-color: #655757 !important;
+}
+
+div.container.login{
+  background-color: #363333 !important;
+  border: 2px solid #FB8C00;
+  box-shadow: 1px 1px 4px #FF9800;
+}
+
+p.exchanges-info, p.exchanges-info > a, p.open-account, p.open-account > a{
+  color: white !important;
+}
+
+.app{
+  background-color: #655757 !important;
+} /* main app background*/
+
+table, thead, tbody, td.right-border, td, th.right-border, th, .marketwatch-sidebar .marketwatch-selector li.item{
+  border: none !important;
+}
+
+.marketwatch-sidebar .marketwatch-selector, .pinned-instruments, .app-nav{
+  border: none !important;
+}
+
+.marketwatch-sidebar .instruments .instrument.up .change-indicator,
+.marketwatch-sidebar .instruments .instrument.up .last-price,
+.marketwatch-sidebar .instruments .instrument.up .nice-name{
+  color: #5de161 !important;
+}
+
+.marketwatch-sidebar .instruments .instrument.down .change-indicator,
+.marketwatch-sidebar .instruments .instrument.down .last-price,
+.marketwatch-sidebar .instruments .instrument.down .nice-name{
+  color: #ff6a3c !important;
+}
+
+.price-absolute, .price-percentage, .dim{
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.app-nav a, .right-nav a{
+  color: lightgrey !important;
+}
+
+.app-nav a:hover{
+  color: #FC7229 !important;
+}
+
+th.sortable:hover, tr:hover td, .instrument:hover .info, .marketwatch-sidebar .marketwatch-selector li.item:hover{
+  background-color: #515151 !important;
+}
+
+.data-table table thead th{
+  background-color: #363333 !important;
+  color: #FC7229 !important;
+}
+
+.vddl-list, .list-flat, .omnisearch, .counts, ul.marketwatch-selector > li.item.selected, .su-select select{
+  background-color: #363333 !important;
+  color: #8b8b8b !important;
+  border:none !important;
+}
+
+.app .data-table, .vddl-draggable, .page-title, .marketwatch-sidebar{
+  background-color: #363333 !important;
+  border:none !important;
+}
+
+.app .header, input, th.pnl{
+  background-color: #363333 !important;
+  color: #8b8b8b !important;
+  border:none !important;
+}
+
+.app .container {
+  background-color: #363333 !important;
+  border:none !important;
+}
+
+/*Holding or position window, stock list option on clicking 3 dot dropdown*/
+.context-menu-list li a{
+  color: #8b8b8b !important;
+}
+
+/*Holding or position window, stock list option on clicking 3 dot dropdown*/
+.context-menu-list li a:hover{
+  background-color: darkgrey !important;
+  color: black !important;
+}
+
+/*order floating window*/
+.order-window .content, .order-window .wrap .variety, .order-window .body, .order-window .gtt,.order-window .footer{
+  background-color: #363333 !important;
+  color: #8b8b8b !important;
+}
+
+/*order floating window*/
+.order-window .su-input-group input{
+  background-color: #363333 !important;
+  color: #8b8b8b !important;
+}
+
+/*Profile clicked dropdown*/
+.right-nav .user-nav .dropdown-nav{
+  background-color: #363333 !important;
+}
+
+
+.custom-fixed{
+  position: fixed !important;
+}
+
+div.container.wrapper{
+  margin: inherit !important;
+}
+
+.form-bhushan{
+  position: absolute;
+  width: fit-content;
+  left:1596px;
+  top: 45px;
+  /*height: fit-content;*/
+  cursor:move;
+  display:block;
+}
+
+.high-node{
+  /*position: absolute;
+  left: 5px;
+  top: 5px;*/
+  width: 240px;
+  height: 50px;
+  background-color: #363333;
+  text-align: center;
+  line-height: 50px;
+}
+
+.low-node{
+  /*position: "absolute";
+  left: 5px;
+  top: 60px;*/
+  width: 240px;
+  height: 50px;
+  background-color: #363333;
+  text-align: center;
+  line-height: 50px;
+  
+}
+
+.sl-node{
+  width: 200px;
+  height: 755px;
+}
+
+.grid-container{
+  display: grid;
+  /*grid-template-columns: auto auto auto;*/
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.sl-row{
+  background-color: rgba(128, 0, 0, 0.5) !important;
+}
